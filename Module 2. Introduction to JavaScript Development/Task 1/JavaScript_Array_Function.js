@@ -99,10 +99,10 @@ let numbs = [3, 6, 67, 6, 23, 11, 100, 8, 93, 0, 17, 24, 7, 1, 33, 45, 28, 33, 2
 // }
 
 // Exercise 7: Write a simple JavaScript function to join all elements of the following array into a string.
-// let myColor = ["Red", "Green", "White", "Black"];
+let myColor = ["Red", "Green", "White", "Black"];
 
-// function stringMe(array) {
-//   return array.join();
-// }
+function stringMe(array) {
+  return array.join();
+}
 
-// console.log(stringMe(myColor));
+console.log(stringMe(myColor));

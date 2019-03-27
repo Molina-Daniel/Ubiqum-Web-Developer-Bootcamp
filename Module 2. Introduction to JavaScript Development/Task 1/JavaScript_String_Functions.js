@@ -40,12 +40,16 @@ let input = prompt("Enter a phrase to discover the longest word in it");
 function longestFinder(finder) {
   var newArray = finder.split(" ");
 
-  var longest = "";
+  let longest = [];
+  longest[0] = input.split(" ")[0];
 
-  for (let i = 0; i < newArray.length; i++) {
-    if (newArray[i].length > longest.length) {
-      let theCopy = newArray[i].slice();
-      longest = theCopy;
+  for (let i = 1; i < newArray.length; i++) {
+
+    if (newArray[i].length > longest[0].length) {
+      longest = [];
+      longest[0] = newArray[i];
+    } else if (newArray[i].length === longest[0].length) {
+      longest.push(newArray[i]);
     }
   }
 
