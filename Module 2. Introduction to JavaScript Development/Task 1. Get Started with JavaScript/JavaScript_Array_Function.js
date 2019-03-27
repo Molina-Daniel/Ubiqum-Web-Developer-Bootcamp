@@ -45,7 +45,7 @@ console.log(lowestNumber(classAges));
 
 // Exercise 5: Write a function which receives two parameters, an array and an index.  The function will print the value of the element at the given position (one-based) to the console.
 var array = [3, 6, 67, 6, 23, 11, 100, 8, 93, 0, 17, 24, 7, 1, 33, 45, 28, 33, 23, 12, 99, 100];
-var index = 1;
+// var index = 1;
 
 function printIndex(array, index) {
   let print = array[index];
@@ -57,7 +57,7 @@ console.log(printIndex(array, index));
 // Exercise 6: Write a function which receives an array and only prints the values that repeat.
 let numbs = [3, 6, 67, 6, 23, 11, 100, 8, 93, 0, 17, 24, 7, 1, 33, 45, 28, 33, 23, 12, 99, 100];
 
-console.log(numbs.includes(numbs[4]));
+// console.log(numbs.includes(numbs[4]));
 
 //1. que coja el primer valor del array
 //2. que busque otro valor igual en el array
@@ -68,7 +68,7 @@ function printRepeats(array) {
   let result = [];
   for (let i = 0; i < array.length; i++) {
     for (let j = i + 1; j < array.length; j++) {
-      if (array[i] === array[j] && result.includes(array[i]) === false) {
+      if (array[i] === array[j] && !result.includes(array[i])) {
         result.push(array[i]);
       }
     }
