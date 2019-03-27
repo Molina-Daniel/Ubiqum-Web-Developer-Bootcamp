@@ -1,0 +1,162 @@
+body {
+    background-image: url(../img/6920e04e5104c694d7f326ab226092c9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* font-family: 'Markazi Text', serif; */
+    font-family: 'Sniglet', cursive;
+    /* font-size: 1.3em; */
+}
+
+.wrap {
+    width: 80%;
+    margin: auto;
+}
+
+aside {
+    /* display: flex; */
+    width: 25%;
+    float: left;
+    margin: 20px auto;
+}
+
+main {
+    width: 75%;
+    /* display: flex; */
+    float: right;
+    margin: 20px auto;
+}
+
+h1:hover {
+    transform: scale(1.1);
+    transition: 1s ease;
+    color: rgba(199, 0, 0, 0.863);
+}
+
+h2 {
+    margin: 6px 0px 0px 0px;
+    padding: 0;
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+}
+
+li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 15px;
+    text-align: center;
+    color: black;
+}
+
+li a:hover {
+    background-color: rgb(88, 88, 88);
+    color: white;
+}
+
+.title {
+    /* display: flex; */
+    /* text-align: left; */
+    margin: 0;
+    padding: 60px;
+    font-size: 3em;
+    text-shadow: -3px -3px 12px #d04b07;
+}
+
+.headerBanner {
+    display: flex;
+    height: 200px;
+    background-image: url(../img/cropped-soccer-banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* color: rgb(180, 32, 21); */
+}
+
+.logo {
+    width: 100px;
+    position: absolute;
+    float: right;
+    padding-left: 120px; 
+    margin-top: -35px;
+}
+
+.logo:hover {
+    transform: scale(1.5);
+    transition: 1s ease;
+}
+
+.content {
+    /* display: flex; */
+    /* float: right; */
+    position: relative;
+}
+
+.active {
+    background-color: rgb(95, 156, 24);
+    color: white;
+}
+
+.contentHeader {
+    display: inline-block;
+    width: 100%;
+    background-color: rgb(196, 196, 196);
+    height: 50px;
+
+}
+
+.contentBody {
+    display: inline-block;
+    background-color: rgb(216, 216, 216);
+    width: 100%;
+}
+
+.contentTitles {
+    margin: 20px 0px 0px 10px;
+}
+
+.contentTexts {
+    margin: 5px 25px;
+}
+
+.titleLink {
+    text-decoration: none;
+    color: black;
+}
+
+.contactText {
+    margin: 15px 10px;
+}
+
+.contactGif {
+    margin-top: 5px;
+    
+}
+
+.text {
+    float: left;
+    display: inline;
+    width: 400px;
+    margin: 0px;
+    padding: 0;
+}
+
+.gifEmail {
+    width: 100px;
+    display: inline;
+}
+
+.imgLarge {
+    width: 800px;
+    padding-left: 10px;
+}
+
+.imgSmall {
+    padding-left: 15px;
+}

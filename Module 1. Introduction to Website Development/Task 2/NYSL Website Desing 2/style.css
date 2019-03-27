@@ -1,0 +1,65 @@
+body {
+    font-family: 'Markazi Text', serif;
+    font-size: 1.2em;
+}
+
+#logo {
+    width: 100px;
+}
+
+#img1 {
+    height: 250px;
+    margin: 20px 20px;
+}
+
+#img2 {
+    height: 300px;
+    margin: 20px 20px;
+}
+
+#img3 {
+    height: 200px;
+    margin: 20px 20px;
+}
+
+.headerLogo {
+    display: inline-block;
+}
+
+.headerTitle {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.image {
+    display: inline-block;
+}
+
+.content {
+    display: inline-block;
+    width: 75%;
+}
+
+#indexNav {
+    padding-right: 6px;
+    border-right: 1px solid black;
+}
+
+#aboutNav {
+    padding-right: 6px;
+    border-right: 1px solid black;
+}
+
+.textEvents {
+    margin: 0px 0px 15px 20px;
+    position: relative;
+    bottom: 15px;
+}
+
+.contact {
+    position: relative;
+    bottom: 100px;
+    /* float: right;
+    position: relative;
+    top: 75px; */
+}
