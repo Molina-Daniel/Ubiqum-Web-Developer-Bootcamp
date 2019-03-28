@@ -12,7 +12,7 @@ console.log(classNames.slice(-1)[0]); // Print the last element
 console.log(classNames[classNames.length - 1]); // Print the last element
 
 for (let i = 0; i < classNames.length; i++) {
-  console.log(classNames[i]); // Print all the elements
+  return console.log(classNames[i]); // Print all the elements
 }
 
 // Exercise 2: Create an array with all the ages of the students in your class.  Iterate the array using a while loop, and then print every age in the console.  Add a conditional inside the while loop to only print even numbers.  Change the loop to use a "for" loop instead of a "while" loop.
@@ -45,10 +45,10 @@ console.log(lowestNumber(classAges));
 
 // Exercise 5: Write a function which receives two parameters, an array and an index.  The function will print the value of the element at the given position (one-based) to the console.
 var array = [3, 6, 67, 6, 23, 11, 100, 8, 93, 0, 17, 24, 7, 1, 33, 45, 28, 33, 23, 12, 99, 100];
-// var index = 1;
+var index = 4;
 
-function printIndex(array, index) {
-  let print = array[index];
+function printIndex(tuArrey, i) {
+  let print = tuArrey[i];
   return print;
 }
 
