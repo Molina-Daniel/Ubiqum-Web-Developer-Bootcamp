@@ -54,7 +54,7 @@ function longestFinder(finder) {
   }
 
   return longest;
-}
+};
 
 console.log(longestFinder(input));
 

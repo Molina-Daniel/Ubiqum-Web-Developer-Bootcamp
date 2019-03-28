@@ -15,8 +15,8 @@ randomNumbers = randomArray(100);
 
 console.log(randomNumbers);
 
-let oddNumbers = [];
-let evenNumbers = [];
+// let oddNumbers = [];
+// let evenNumbers = [];
 
 function splitArray(arrayToSplit) {
   let toJunto = {
